@@ -1,0 +1,17 @@
+:root{
+    --boolist-primary: #47adf1;
+    --boolist-secondary: #9c72e4;
+    --boolist-secondary-light: #d863a1;
+    --boolist-third: #64c0a9;
+    --boolist-third-light: #94d6c8; /*colore spunta verde*/
+    --boolist-fourth: #f29e33;
+    --boolist-fourth-light: #f2817a; /*colore spunta rossa*/
+    --boolist-fifth: #b0c926;
+    --boolist-sixth: #d0d4d9; /*colore testo secondo "bottone" header*/
+    --boolist-sixth-light: #f6f8f9; /*colore sfondo container*/
+    
+}
+
+/*body{
+    background-color: var(--boolist-primary);
+}*/
