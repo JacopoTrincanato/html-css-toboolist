@@ -26,7 +26,6 @@ body{
 
 .initial-header{
     background-color: white;
-    
 }
 
 .logo{
@@ -52,12 +51,14 @@ div{
     background-color: white;
     width: 75%;
     margin: auto;
-    padding: 40px;
+    /*padding: 40px;*/
     margin-top: 2rem;
     border-radius: 1rem;
 }
 
 #container-header{
+    padding: 20px;
+    margin-left: 30px;
     border-bottom: 3px solid #f6f8f9;
 }
 
@@ -76,7 +77,8 @@ div{
 }
 
 section{
-    margin-top: 50px;
+    margin-left: 30px;
+    padding: 20px;
 }
 
 .checkmark{
