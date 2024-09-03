@@ -70,7 +70,7 @@ section{
 .checkmark{
     color: var(--boolist-third-light);
     font-size: 20px;
-    border: 1 px solid;
+    border: 1 px solid green;
     border-radius: 50%;
 }
 
@@ -83,4 +83,25 @@ section{
 
 .bg_primary-light{
     background-color: var(--boolist-primary-light);
+    margin-left: 5px;
+}
+
+.bg_secondary{
+    background-color: var(--boolist-secondary);
+    margin-left: 5px;
+}
+
+.bg_third{
+    background-color: var(--boolist-third);
+    margin-left: 5px;
+}
+
+.bg_fourth{
+    background-color: var(--boolist-fourth);
+    margin-left: 5px;
+}
+
+.bg_primary-light{
+    background-color: var(--boolist-primary-light);
+    margin-left: 5px;
 }
