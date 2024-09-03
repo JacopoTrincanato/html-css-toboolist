@@ -36,7 +36,7 @@ body{
 
 
 div{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .logo-img{
@@ -92,37 +92,32 @@ section{
 
 .button{
     font-size: 10px;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
     color: white;
-    padding: 5px;
+    padding: 7px;
+    margin-left: 5px;
 }
 
 .bg_primary-light{
     background-color: var(--boolist-primary-light);
-    margin-left: 5px;
 }
 
 .bg_secondary{
     background-color: var(--boolist-secondary);
-    margin-left: 5px;
 }
 
 .bg_third{
     background-color: var(--boolist-third);
-    margin-left: 5px;
 }
 
 .bg_fourth{
     background-color: var(--boolist-fourth);
-    margin-left: 5px;
 }
 
 .bg_secondary-light{
     background-color: var(--boolist-secondary-light);
-    margin-left: 5px;
 }
 
 .bg_fifth{
     background-color: var(--boolist-fifth);
-    margin-left: 5px;
 }
