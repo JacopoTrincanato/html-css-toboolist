@@ -13,19 +13,74 @@
     
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: var(--boolist-sixth-light);
 }
 
-header{
+.initial-header{
     background-color: white;
 }
 
 .logo{
     display: inline-block;
     vertical-align: middle;
+    
+}
+
+.logo-img{
+    margin-left: 1rem;
 }
 
 .logo-text{
     font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+#task-button{
+    background-color: var(--boolist-primary);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+#section-button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    color: var(--boolist-sixth);
+}
+
+section{
+    margin-top: 50px;
+}
+
+.checkmark{
+    color: var(--boolist-third-light);
+    font-size: 20px;
+    border: 1 px solid;
+    border-radius: 50%;
+}
+
+.button{
+    font-size: 10px;
+    border-radius: 1rem;
+    color: white;
+    padding: 5px;
+}
+
+.bg_primary-light{
+    background-color: var(--boolist-primary-light);
 }
