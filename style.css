@@ -1,5 +1,6 @@
 :root{
-    --boolist-primary: #47adf1;
+    --boolist-primary: #47adf1; /*colore testo primo "bottone" header*/
+    --boolist-primary-light: #45abea;
     --boolist-secondary: #9c72e4;
     --boolist-secondary-light: #d863a1;
     --boolist-third: #64c0a9;
@@ -8,10 +9,23 @@
     --boolist-fourth-light: #f2817a; /*colore spunta rossa*/
     --boolist-fifth: #b0c926;
     --boolist-sixth: #d0d4d9; /*colore testo secondo "bottone" header*/
-    --boolist-sixth-light: #f6f8f9; /*colore sfondo container*/
+    --boolist-sixth-light: #f6f8f9; /*colore sfondo body*/
     
 }
 
-/*body{
-    background-color: var(--boolist-primary);
-}*/
+body{
+    background-color: var(--boolist-sixth-light);
+}
+
+header{
+    background-color: white;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-text{
+    font-family: 'Times New Roman', Times, serif;
+}
