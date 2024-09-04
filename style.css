@@ -40,8 +40,8 @@ body{
     list-style: none;
 }
 
-div{
-    margin-top: 15px;
+li{
+    line-height: 2rem;
 }
 
 .logo-img{
