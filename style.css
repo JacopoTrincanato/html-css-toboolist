@@ -36,6 +36,10 @@ body{
     margin-bottom: 10px;
 }
 
+.list-unstyled{
+    list-style: none;
+}
+
 div{
     margin-top: 15px;
 }
